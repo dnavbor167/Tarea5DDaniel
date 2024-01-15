@@ -27,4 +27,31 @@ public class Coche {
         
     }
     
+    //Añadimos getter y setter
+
+    public int getNumRuedas() {
+        return numRuedas;
+    }
+
+    public void setNumRuedas(int numRuedas) {
+        this.numRuedas = numRuedas;
+    }
+
+    public float getCv() {
+        return cv;
+    }
+
+    public void setCv(float cv) {
+        this.cv = cv;
+    }
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+    
+    
 }
