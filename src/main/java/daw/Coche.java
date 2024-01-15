@@ -53,5 +53,17 @@ public class Coche {
         this.matricula = matricula;
     }
     
+    //Añadimos toString
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Coche{");
+        sb.append("numRuedas=").append(numRuedas);
+        sb.append(", cv=").append(cv);
+        sb.append(", matricula=").append(matricula);
+        sb.append('}');
+        return sb.toString();
+    }
+    
     
 }
